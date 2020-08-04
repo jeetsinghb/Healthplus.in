@@ -1,0 +1,227 @@
+/*Responsive File*/
+
+@media only screen and ( max-width: 1280px ) {
+	.container { width:96%;}
+	.department ul li { width:17.6%;}
+	.department ul li { margin-left:3%;}
+	.department ul li p { height:40px;}
+}
+@media only screen and ( max-width: 1024px ) {
+	.banner-section .caption { width:500px; margin-left:-450px; top:180px;}
+	.banner-section .caption h1 { font-size:45px; line-height:60px;}
+	.services .box p { font-size:15px; line-height:26px;}
+	.department ul li .dept-content img { height:180px;}
+	.faq-section .faq-float.fix-margin { height:492px; padding:20px;}
+	.slideshow-container { width:95%; margin:0 auto; padding:0px;}
+	.slideshow-container .slide-txt { width:inherit;}
+	.testimonials .slideshow-container .slider p { height:230px;}
+	/*Service Page*/
+	.services-section .box { height:inherit; width:100%; float:none; margin-left:0;}
+	.call p { margin-left:0;}
+	.call a { margin-right:0;}
+	
+	/*About Page*/
+	.about-section .about-txt p.fix-width { width:70%;}
+	.progress-section ul li { width:20%; margin-left:5%;}
+	
+}
+@media only screen and ( max-width: 980px ) {
+	.faq-section .faq-float.fix-margin { height:520px;}
+	.call p, .call a { float:none; text-align:center; margin-top:0;}
+	.call a { display:block; margin:20px auto 0px auto;}
+}
+@media only screen and ( max-width: 800px ) {
+	.banner-section { height:480px;}
+	.banner-section .caption { width:400px; margin-left:-350px; top:150px;}
+	.banner-section .caption h1 { font-size:40px; line-height:50px;}
+	.topnav a { margin-left:60px;}
+	.form-section form { width:90%;}
+	.form-section form ul li { width:46%; margin-left:3%;}
+	.form-section form ul li.long { width:95%;}
+	.services .box { width:45%; margin-left:3.5%; margin-bottom:20px;}
+	.department ul { text-align:center;}
+	.department ul li { width:27%; margin-left:5%; margin-bottom:50px;}
+	.faq-section .faq-float, .faq-section .faq-float.fix-margin { width:100%; float:none; height:inherit; margin:0px 0px 20px 0px;}
+	.testimonials .slideshow-container .slider p { font-size:18px; line-height:34px;}
+	
+	/*About Page*/
+	.about-section .about-txt img { width:80%; display:block; margin:0 auto;}
+	.about-section .about-txt p.fix-width { width:100%; margin-left:0; margin-top:20px;}
+	.about-txt { text-align:center;}
+	.progress-section ul li { width:48%; margin-left:3%; margin-bottom:20px;}
+	.progress-section ul li:nth-child(3) { margin-left:0;}
+}
+@media only screen and ( max-width: 768px ) {
+	.call-us p { font-size:22px;}
+	.footer-section .rgt-section .working-hours { padding:30px 20px; width:360px;}
+	.footer-section .rgt-section .working-hours .lft-day p, .footer-section .rgt-section .working-hours .rgt-time p { font-size:13px;}
+}
+@media only screen and ( max-width: 736px ) {
+	.faq-section h4 { font-size:18px;}
+	.services a, .faq-section a, .call-us a { font-size:16px; padding:10px; width:150px; margin-top:10px;}
+	.call-us { padding:80px 0px;}
+	.testimonials .slideshow-container .slider p { font-size:17px; line-height:30px;}
+	.footer-section .lft-section { float:none; text-align:center;}
+	.footer-section p.footer-txt { width:80%; margin:20px auto 0px auto; font-size:16px;}
+	.footer-section .rgt-section { float:none; margin:20px auto 0px auto;}
+	.footer-section .rgt-section .working-hours { margin:0 auto; width:65%;}
+	
+	/*Service Page*/
+	.call p, .call a { font-size:22px;}
+	
+	/*About Page*/
+	.about-section .about-txt img { width:60%;}
+}
+@media only screen and ( max-width: 667px ) {
+	.banner-section { height:400px;}
+	.banner-section .caption { margin-left:-300px; top:120px;}
+	.banner-section .caption h1 { font-size:34px; line-height:45px;}
+	.topnav a { margin-left:40px;}
+	.services-section { margin:30px 0px;}
+	.services .box { width:100%; margin-left:0;}
+	.services .box p { font-size:16px; height:inherit;}
+	.call-us { padding:50px 0px;}
+	.call-us p { font-size:20px; margin-bottom:20px;}
+	.footer-call-section .footer-navbar, .footer-call-section .call-btn { float:none; text-align:center;}
+	.footer-call-section .call-btn { margin-top:30px;}
+	
+	/*Service Page*/
+	.call p, .call a { font-size:20px;}
+	
+	/*About Page*/
+	.about-section { border-top:2px solid #32c69a; padding-top:30px; margin:30px 0px;}
+	
+	/*Faq Page*/
+	.faq-main-section { border-top:2px solid #32c69a; padding-top:30px;}
+	
+}
+@media only screen and ( max-width: 640px ) {
+	.department ul li { width:38%;}
+	.department ul li .dept-content img { height:220px;}
+	.department ul li p { height:inherit;}
+	.form-section h3 { font-size:24px;}
+	.form-section form ul li.btn button { width:150px; font-size:16px;}
+	.services h3, .department h3, .faq-section h3, .testimonials h3 { font-size:24px;}
+	.department ul li:nth-child(3) { margin-left:0;}
+	.department ul li:last-child { margin-bottom:0;}
+	.faq-section a { margin-top:20px;}
+	
+	/*Service Page*/
+	.services-section h3 { font-size:24px;}
+}
+@media only screen and ( max-width: 600px ) {
+	.header .logo { margin-bottom:20px;}
+	.header .logo, .header .contact { float:none; text-align:center;}
+	.banner-section { display:none;}
+	.banner-section .caption { width:300px; margin-left:-270px; top:80px;}
+	.banner-section .caption h1 { font-size:28px; line-height:38px; margin-bottom:20px;}
+	.banner-section .caption a { font-size:12px; width:120px; padding:10px 20px;}
+	.topnav { padding:0;}
+	.topnav a { display:none; margin-left: 0; padding:10px; border-bottom:0;}
+	.topnav a.active { border-bottom:2px solid #fff;}
+	.topnav a.icon { float:right; display:block;}
+	.topnav a:hover, .topnav a.active { border-bottom:0px;}
+
+	.topnav.responsive { position:relative;}
+	.topnav.responsive .icon { position:absolute; right:0; top:0;}
+	.topnav.responsive a { float:none; display:block; text-align:left;}
+	
+	.services-section h3 {margin-top:30px;}
+	.testimonials, .footer-section { padding:40px 0px;}
+	.form-section form { width:100%;}
+	.form-section form ul li { width:100%; margin-left:0;}
+	.form-section form ul li.long { width:100%;}
+	.form-section form ul li.btn button { width:100%;}
+	.services .box img { width:45px; height:45px;}
+	.department { margin:40px 0px;}
+	.department ul li { margin-bottom:30px;}
+	.testimonials .slideshow-container .slider p { font-size:16px;}
+	.services { padding:40px 0px;}
+	.department ul li { width:45%;}
+	.faq-section h4 { font-size:16px;}
+	.faq-section p { font-size:15px; line-height:26px;}
+	.faq-section { padding:40px 0px;}
+	
+	/*Service Page*/
+	.services-section { margin:0;}
+	.call p, .call a { font-size:18px;}
+	.call a { padding:8px 15px;}
+	
+	/*About Page*/
+	.about-section { border-top:0; padding-top:0;}
+	.progress-section ul li i { font-size:50px;}
+	.progress-section ul li span { font-size:34px;}
+	
+	/*Faq Page*/
+	.faq-main-section { border-top:0; padding-top:0;}
+
+}
+@media only screen and ( max-width: 568px ) {
+	
+	/*Service Page*/
+	.services-section { border-top:0; padding-top:0;}
+}
+@media only screen and ( max-width: 480px ) {
+	.form-section { margin:30px 0px;}
+	.services h3, .department h3, .faq-section h3, .testimonials h3 { margin-bottom:40px;}
+	.services a, .faq-section a, .call-us a { font-size:14px; width:120px;}
+	.department ul li p { height:40px;}
+	.footer-section .rgt-section .working-hours { width:100%;}
+	.footer-section .rgt-section .working-hours h4 { font-size:16px; margin-bottom:30px;}
+	.footer-call-section .footer-navbar ul li a { margin-bottom:10px;}
+	
+	/*Service Page*/
+	.services-section .box img { width:45px; height:45px;}
+	.services-section .box p { font-size:15px; line-height:26px;}
+	.call p, .call a { font-size:18px;}
+	
+	/*About Page*/
+	.about-section .about-txt p.fix-width, .about-section .about-txt p { font-size:16px; line-height:28px;}
+	.progress-section ul li { width:80%; display:block; margin:0 auto 20px auto; padding:30px 0px;}
+	.progress-section ul li:first-child, .progress-section ul li:nth-child(3) { margin-left:auto;}
+	.about-section h3 { font-size:24px;}
+	.location h3 { font-size:24px;}
+	
+	/*Faq Page*/
+	.faq-main-section h3 { font-size:24px;}
+	.faq-main-section ul li h4 { font-size:18px;}
+}
+@media only screen and ( max-width: 414px ) {
+	.header .contact a { margin:0px auto 20px auto; display:block;}
+	.header .contact a.fix-margin { margin-left:0; margin-bottom:0;}
+	.form-section h3 { font-size: 22px;}
+	.services .box p { font-size:15px;}
+	.services h3, .department h3, .faq-section h3, .testimonials h3 { font-size:22px;}
+	.department ul li { width:70%; margin-left:0;}
+	.department ul li .dept-content img { height:250px;}
+	.department ul li p { height:inherit;}
+	.call-us { padding:30px 0px;}
+	.call-us p { font-size:18px;}
+	.testimonials .slideshow-container .slider p { line-height:28px; height:280px;}
+	.footer-section p.footer-txt { width:100%;}
+	
+	/*About Page*/
+	.progress-section ul li i { font-size:46px;}
+	
+	/*Faq Page*/
+	.faq-main-section ul li p { font-size:15px;}
+}
+
+@media only screen and ( max-width: 375px ) {
+	.testimonials .slideshow-container .slider p { height:300px;}
+}
+@media only screen and ( max-width: 360px ) {
+	.department ul li { width:80%;}
+	.footer-section p.footer-txt { font-size:14px; line-height:24px;}
+	.footer-section p.copyright { font-size:14px;}
+	.testimonials .slideshow-container .slider p { font-size:14px; height:260px; line-height:25px;}
+	
+	/*About Page*/
+	.progress-section ul li span { font-size:30px;}
+}
+@media only screen and ( max-width: 320px ) {
+	.footer-section .rgt-section .working-hours .lft-day p, .footer-section .rgt-section .working-hours .rgt-time p { font-size:11px;}
+	/*Service Page*/
+	.call p, .call a { font-size:16px;}
+
+}
