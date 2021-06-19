@@ -10,7 +10,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) &&
 
 $body = $name."\n".$email."\n".$phone."\n".$date."\n".$message;
 
-	if(mail('flashsingh0@gmail.com ', 'Webiste Response ', $body , 'From: tarjeet98@gmail.com'))
+	if(mail('to_email_here', 'Webiste Response ', $body , 'From: from_email_here'))
 	{
 		echo '<color="#000">Mail sent Successfully.';
 		echo "<a href='index.html' style='color:#000; display:block;'>Go to Main Page</a>";
